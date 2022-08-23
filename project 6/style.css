@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.side {
+    display: flex;
+    float: right;
+}
+.side li {
+    list-style: none;
+    margin: 2px 2px;
+}
+.side li img {
+    height: 20px;
+}
+
+.main {
+    background-image: url(2022-05-22-21-06-38-919.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px 600px;
+}
+.main input {
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 0px #888;
+    margin: 70px 45px;
+}
+.mtime h1 {
+    font-weight: 100;
+    font-size: 90px;
+    margin-left: 80px;
+    color: white;
+    font-family: Arial;
+}
+.mtime h2 {
+    margin-left: 250px;
+    margin-top: -42px;
+    color: white;
+    font-weight: 100;
+}
+.mtime p {
+    margin-left: 140px;
+    margin-top: 0px;
+    color: white;
+}
+.ctime {
+    position: absolute;
+}
+.ctime h1 {
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 4px;
+    color: black;
+    font-family: Arial;
+    margin-top: -313px;
+
+}
+.ctime h2 {
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 40px;
+    color: black;
+    margin-top: -19px;
+}
+
+.fline li a img {
+    height: 40px;   
+}
+.fline li {
+    list-style: none;
+}
+.fline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.sline li a img {
+    height: 45px;   
+}
+.sline li {
+    list-style: none;
+}
+.sline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.sline :hover {
+    height: 50px;
+    transition: 0.5s;
+}
+.fline :hover {
+    height: 50px;
+    transition: 0.5s;
+}
+.main input:hover {
+    height: 55px;
+    width: 255px;
+    transition: 0.5s;
+}
